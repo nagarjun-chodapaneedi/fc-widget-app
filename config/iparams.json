@@ -1,0 +1,8 @@
+{
+  "widgetURL": {
+    "display_name": "Widget URL",
+    "description": "Please enter your widget URL",
+    "type": "text",
+    "required": true
+  }
+}

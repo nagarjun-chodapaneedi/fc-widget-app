@@ -1,0 +1,31 @@
+<html>
+
+<head>
+  <script src="{{{appclient}}}"></script>
+  <script async type="module" src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.esm.js"></script>
+  <script async nomodule src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.js"></script>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+
+<body>
+<div class="button-container">
+  <button class="button" id="new-visitor">New Visitor</button>
+  <button class="button" id="existing-user">Existing User</button>
+</div>
+
+<div id="existing-user-dialog-box" class="dialog-box">
+  <label for="external-id">External ID:</label>
+  <input type="text" id="external-id" required><br><br>
+  <button class="button" id="submit">Submit</button>
+  <button class="button" id="cancel">Cancel</button>
+</div>
+
+<div id="user-details">
+  <p>External ID: <span id="user-external-id">Not available</span></p>
+</div>
+</body>
+
+<script src="scripts/app.js"></script>
+
+</html>
